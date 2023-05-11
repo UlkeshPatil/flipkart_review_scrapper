@@ -1,6 +1,6 @@
 from src.mongo_db_connection import MongodbClient
 from src.scrapper import FlipkartScraper
-from src.logger import logging as logger
+from src.logger import logger
 from flask import Flask, render_template, request,jsonify
 
 app = Flask(__name__)
